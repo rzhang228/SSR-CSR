@@ -1,0 +1,19 @@
+{
+  "name": "koa-ssr-csr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "jsdom": "^11.5.1",
+    "koa": "^2.4.1",
+    "koa-logger": "^3.1.0",
+    "koa-router": "^7.3.0",
+    "koa-static": "^4.0.2"
+  }
+}

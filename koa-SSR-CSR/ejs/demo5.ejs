@@ -9,7 +9,15 @@
 
 <body>
 
-  <div id="root"></div>
+  <div id="root">
+    <ul>
+      <% data.forEach(function(item) { %>
+        <li id="<%= item.id %>">
+          <%= item.title %>
+        </li>
+      <% }) %>
+    </ul>
+  </div>
 
 </body>
 

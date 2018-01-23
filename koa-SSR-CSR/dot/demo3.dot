@@ -9,7 +9,13 @@
 
 <body>
 
-  <div id="root"></div>
+  <div id="root">
+    <ul>
+      {{~it:value}}
+        <li id="{{=value.id}}">{{=value.title}}</li>
+      {{~}}
+    </ul>
+  </div>
 
 </body>
 

@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  #root
+    ul
+      - data.forEach(function(item) {
+          li(id=item.id)= item.title
+      - })
